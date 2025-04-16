@@ -20,10 +20,7 @@ This project builds on these advances, applying the FHIR standard to enable scal
 
 # 🎯 Problem Statement
 
-30-day hospital readmissions remain a costly and preventable issue in the healthcare system. Existing scoring systems (e.g., LACE, HOSPITAL score) are limited in personalization and do not leverage structured EHR data effectively. This project addresses that gap by:
-
-Utilizing detailed patient-level FHIR data
-
+30-day hospital readmissions remain a costly and preventable issue in the healthcare system. Existing scoring systems (e.g., LACE, HOSPITAL score) are limited in personalization and do not leverage structured EHR data effectively. This project addresses that gap by: Utilizing detailed patient-level FHIR data
 Creating a predictive model for hospital readmission in aged patients with chronic conditions
 
 # 👥 Justification of Population Chosen
