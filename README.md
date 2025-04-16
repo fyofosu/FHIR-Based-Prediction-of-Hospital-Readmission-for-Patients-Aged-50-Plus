@@ -2,7 +2,7 @@
 Hospital readmissions, especially within 30 days of discharge, are a major concern both for patient health and hospital systems. In this project, we use AI to predict the likelihood of readmission by analyzing clinical data structured in FHIR format. 
 Hospital readmissions, especially within 30 days of discharge, are a major concern both for patient health and hospital systems. In this project, we use AI to predict the likelihood of readmission by analyzing clinical data structured in FHIR format.
 
-📚 Literature Review
+# 📚 Literature Review
 
 Research into AI for hospital readmission prediction has shown promising results:
 
@@ -18,7 +18,7 @@ AI's role in healthcare continues to expand, offering automation and insights ac
 
 This project builds on these advances, applying the FHIR standard to enable scalable, interoperable prediction pipelines.
 
-🎯 Problem Statement
+# 🎯 Problem Statement
 
 30-day hospital readmissions remain a costly and preventable issue in the healthcare system. Existing scoring systems (e.g., LACE, HOSPITAL score) are limited in personalization and do not leverage structured EHR data effectively. This project addresses that gap by:
 
@@ -26,7 +26,7 @@ Utilizing detailed patient-level FHIR data
 
 Creating a predictive model for hospital readmission in aged patients with chronic conditions
 
-👥 Justification of Population Chosen
+# 👥 Justification of Population Chosen
 
 We chose patients aged 50 years and above with chronic conditions due to:
 
@@ -38,7 +38,7 @@ The clinical importance of targeting preventive strategies toward this group
 
 This focus aligns with real-world hospital quality improvement efforts and value-based care initiatives.
 
-📊 Dataset: FHIR_Readmission_Prediction_Dataset
+# 📊 Dataset: FHIR_Readmission_Prediction_Dataset
 
 FHIR-converted JSON data was extracted from:
 
@@ -60,7 +60,7 @@ Laboratory values and vital signs
 
 Timestamps for readmission labeling
 
-✅ Dataset Validation
+# ✅ Dataset Validation
 
 To ensure quality and reliability:
 
@@ -72,7 +72,7 @@ Temporal Validity: Ensured encounter dates were within realistic healthcare prac
 
 Feature Importance: Used correlation and model-based feature importance scoring to validate predictive power
 
-🔧 Methodology
+# 🔧 Methodology
 
 Data Preprocessing
 
@@ -126,7 +126,7 @@ ROC curves for all models
 
 Feature importance for top contributors (e.g., creatinine, heart rate)
 
-🔍 Findings & Interpretation
+# 🔍 Findings & Interpretation
 
 Tree-based models (Random Forest, Gradient Boosting) significantly outperformed linear models
 
@@ -136,7 +136,7 @@ Filtering to patients aged 80+ increased model specificity
 
 AUC scores (~0.87) are competitive with or better than published models
 
-🔭 Future Work
+# 🔭 Future Work
 
 Incorporate NLP for unstructured clinical notes
 
@@ -146,7 +146,7 @@ Assess model deployment impact in clinical settings
 
 Include medication data and social determinants of health
 
-🔗 References
+# 🔗 References
 
 Forecasting Hospital Readmissions with Machine Learning. PMC
 
